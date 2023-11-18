@@ -1,6 +1,7 @@
 # Rush_00 ([Piscine](https://www.42.fr)) 2023 :football:
 
 Rush_00 is a group project of the Piscine school "42", which is created according to certain rules:
+
 • Files to submit: main.c, ft_putchar.c and your rush0X.c, ’0X’ represents the
 rush number. For example rush00.c.
 
