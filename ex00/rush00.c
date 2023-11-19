@@ -6,7 +6,7 @@
 /*   By: elmaksim <elmaksim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/19 01:57:57 by elmaksim          #+#    #+#             */
-/*   Updated: 2023/11/19 05:00:19 by elmaksim         ###   ########.fr       */
+/*   Updated: 2023/11/19 05:02:20 by elmaksim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,8 @@ void	draw_line(int width, char left, char middle, char right)
 //if (y > 1) draw_line(x, 'o', '-', 'o');: Draws the bottom line of the pattern 
 //if y is greater than 1.
 //The draw_line function is a reusable component used by rush to draw lines 
-//with different characters. Together, these functions create a pattern on the screen based on the specified parameters.
+//with different characters. Together, these functions create a pattern on 
+//the screen based on the specified parameters.
 
 void	rush(int x, int y)
 {
