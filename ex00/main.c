@@ -6,7 +6,7 @@
 /*   By: elmaksim <elmaksim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/19 02:21:25 by elmaksim          #+#    #+#             */
-/*   Updated: 2023/11/19 03:25:04 by elmaksim         ###   ########.fr       */
+/*   Updated: 2023/11/19 10:59:21 by elmaksim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@ void	ft_putchar(char c);
 
 int	main(void)
 {
-	rush(5, 3);
+	rush(0, 10);
 	ft_putchar('\n');
 	rush(5, 1);
 	ft_putchar('\n');

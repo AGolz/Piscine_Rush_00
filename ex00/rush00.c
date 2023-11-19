@@ -6,11 +6,12 @@
 /*   By: elmaksim <elmaksim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/19 01:57:57 by elmaksim          #+#    #+#             */
-/*   Updated: 2023/11/19 05:05:12 by elmaksim         ###   ########.fr       */
+/*   Updated: 2023/11/19 10:13:08 by elmaksim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_putchar(char c);
+void	ft_puterror(void);
 
 //int width: Represents the width of the line.
 //char left: Represents the leftmost character of the line.
@@ -66,7 +67,10 @@ void	rush(int x, int y)
 	int	i;
 
 	if (x <= 0 || y <= 0)
+	{
+		ft_puterror();
 		return ;
+	}
 	draw_line(x, 'o', '-', 'o');
 	i = 2;
 	while (i < y)
