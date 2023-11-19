@@ -6,7 +6,7 @@
 /*   By: elmaksim <elmaksim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/19 01:57:57 by elmaksim          #+#    #+#             */
-/*   Updated: 2023/11/19 05:03:54 by elmaksim         ###   ########.fr       */
+/*   Updated: 2023/11/19 05:05:12 by elmaksim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,8 +52,8 @@ void	draw_line(int width, char left, char middle, char right)
 //height y is less than or equal to 0. If true, the function returns early.
 //draw_line(x, 'o', '-', 'o');: Draws the top line of the pattern with left, 
 //middle, and right characters as 'o', '-', 'o' respectively.
-//i = 2; while (i < y) { draw_line(x, '|', ' ', '|'); i++; }: Draws the middle part 
-//of the pattern with left, middle, and right characters 
+//i = 2; while (i < y) { draw_line(x, '|', ' ', '|'); i++; }: Draws the 
+//middle part of the pattern with left, middle, and right characters 
 //as '|', ' ', '|' respectively. This loop runs from 2 to y - 1.
 //if (y > 1) draw_line(x, 'o', '-', 'o');: Draws the bottom line of the pattern 
 //if y is greater than 1.
