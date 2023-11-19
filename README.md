@@ -37,6 +37,6 @@ int main()
 }
 ```
 
-**[Project instructions] (https://github.com/AGolz/Piscine_Rush_00/files/13401755/en.subject.pdf)**
+**[Project instructions](https://github.com/AGolz/Piscine_Rush_00/files/13401755/en.subject.pdf)**
 
 Need help: elmaksim@student.42yerevan.am
